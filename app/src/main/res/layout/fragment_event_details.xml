@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#20b2aa"
+    tools:context="com.example.rana.mytrippmate.EventDetailsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/eventNameTv"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/eventBudgetTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        android:id="@+id/budget_progressBar_id"
+        android:layout_margin="25dp"
+        android:progressTint="#3cb371"
+        android:progressBackgroundTint="#fff"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ExpandableListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/expandableListView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+    <!--<TextView-->
+        <!--android:id="@+id/eventDestinationTv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/eventStartingLocationTV"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/departureTimeTV"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="25sp" />-->
+
+
+
+
+</LinearLayout>
